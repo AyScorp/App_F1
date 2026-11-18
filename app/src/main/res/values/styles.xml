@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="F1TextBold">
+        <item name="android:fontFamily">@font/formula1_bold_web_0</item>
+    </style>
+
+    <style name="F1TextRegular">
+        <item name="android:fontFamily">@font/formula1_regular_web_0</item>
+    </style>
+
+    <style name="F1TextWide">
+        <item name="android:fontFamily">@font/formula1_wide_web_0</item>
+    </style>
+</resources>

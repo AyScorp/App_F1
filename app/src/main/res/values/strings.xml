@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">F1Widget2</string>
+    <string name="f1_logo_desc">F1 Logo</string>
+    <string name="title_app">Informations F1</string>
+    <string name="subtitle_app">Suivez tous les résultats et classements de la saison</string>
+    <string name="last_result_desc">Dernier résultat</string>
+    <string name="last_result">Dernier\nRésultat</string>
+    <string name="driver">Driver</string>
+    <string name="constructor">Constructeur</string>
+    <string name="driver_standings_title">Classement Pilotes</string>
+    <string name="constructor_standings_title">Classement Constructeurs</string>
+    <string name="season_2024">Saison 2024</string>
+    <string name="select_season">Choisir la saison</string>
+    <string name="season_format">Saison %1$d</string>
+    <string name="loading_seasons">Chargement des saisons...</string>
+    <string name="no_season_available">Aucune saison disponible via l API</string>
+    <string name="no_race_for_year">Aucune course disponible pour %1$d</string>
+    <string name="standings_load_error">Erreur de chargement du classement: %1$s</string>
+    <string name="no_championship_data">Classement championnat indisponible pour cette session</string>
+    <string name="no_constructor_championship_data">Classement constructeurs indisponible pour cette session</string>
+    <string name="cached_result_title">Dernier resultat enregistre\n%1$s</string>
+    <string name="offline_using_cache_title">Mode hors ligne\n%1$s</string>
+    <string name="offline_using_cache_toast">Connexion indisponible, affichage du dernier resultat enregistre.</string>
+    <string name="no_race_started_for_year">Aucune course commencee pour %1$d</string>
+    <string name="no_session_found_code">Aucune session trouvee - Code: %1$d</string>
+    <string name="error_sessions">Erreur sessions: %1$s</string>
+    <string name="no_drivers_for_session">Aucun pilote trouve pour cette session</string>
+    <string name="no_position_found">Aucune position trouvee</string>
+    <string name="error_positions">Erreur positions: %1$s</string>
+    <string name="no_driver_found_code">Aucun pilote trouve - Code: %1$d</string>
+    <string name="error_loading_drivers">Erreur chargement pilotes: %1$s</string>
+    <string name="unknown_error">Erreur inconnue</string>
+</resources>

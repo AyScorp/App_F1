@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF000000">
+
+    <!-- Image du circuit en arrière-plan avec transparence -->
+    <ImageView
+        android:id="@+id/ivCircuit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/interlagos"
+        android:scaleType="centerCrop"
+        android:alpha="0.25"
+        android:contentDescription="Circuit background" />
+
+    <!-- Voiture en bas qui prend toute la largeur -->
+    <ImageView
+        android:id="@+id/ivCar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/alpinecar"
+        android:scaleType="centerCrop"
+        android:alpha="1.0"
+        android:contentDescription="Alpine car" />
+
+    <!-- Photo de Gasly à droite DEVANT la voiture -->
+    <ImageView
+        android:id="@+id/ivGasly"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/gasly"
+        android:scaleType="centerCrop"
+        android:alpha="1.0"
+        android:contentDescription="Gasly photo" />
+
+    <!-- Nom du circuit en haut à gauche -->
+    <ImageView
+        android:id="@+id/tvCircuit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="Circuit name" />
+
+    <!-- Type de session (Race) en dessous du nom du circuit -->
+    <ImageView
+        android:id="@+id/tvSession"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvCircuit"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:contentDescription="Session name" />
+
+    <!-- Position en dessous de Race -->
+    <ImageView
+        android:id="@+id/tvPosition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvSession"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="Position" />
+
+    <ImageView
+        android:id="@+id/separator"
+        android:layout_width="2dp"
+        android:layout_height="60dp"
+        android:layout_alignTop="@id/tvPosition"
+        android:layout_toEndOf="@id/tvPosition"
+        android:layout_marginStart="24dp"
+        android:src="@drawable/separator"
+        android:contentDescription="Separator" />
+
+    <!-- Prénom (Pierre) à droite de Position -->
+    <ImageView
+        android:id="@+id/tvFirstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/tvPosition"
+        android:layout_toEndOf="@id/separator"
+        android:layout_marginStart="24dp"
+        android:contentDescription="First name" />
+
+    <!-- Nom de famille (GASLY) en dessous de Pierre -->
+    <ImageView
+        android:id="@+id/tvLastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvFirstName"
+        android:layout_alignStart="@id/tvFirstName"
+        android:contentDescription="Last name" />
+
+</RelativeLayout>
